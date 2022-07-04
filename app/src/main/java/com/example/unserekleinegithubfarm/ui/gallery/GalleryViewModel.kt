@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class GalleryViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "Alious Place"
+        value = "Alious Place123"
     }
     val text: LiveData<String> = _text
 }
