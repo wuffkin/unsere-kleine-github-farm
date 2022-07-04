@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         println("Timo's Änderung!")
         println("Timo's Änderung 2.0!")
+        println("Aliou´s Änderung")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
