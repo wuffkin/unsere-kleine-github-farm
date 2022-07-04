@@ -2,6 +2,7 @@ package com.example.unserekleinegithubfarm
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.WindowManager
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
