@@ -42,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        println("Timo's Änderung!")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
